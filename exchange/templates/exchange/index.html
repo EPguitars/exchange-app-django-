@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html>
+
+<head>
+  <title>Guitar Shop</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Guitar Shop</h1>
+    <nav>
+      <ul>
+        <li><a href="#guitars">Guitars</a></li>
+        <li><a href="#accessories">Accessories</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="guitars">
+    <h2>Our Guitars</h2>
+    <ul>
+      <li>
+        <h3>Fender Stratocaster</h3>
+        <img src="stratocaster.jpg" alt="Fender Stratocaster">
+        <p>The Fender Stratocaster is a classic guitar with a sleek design and versatile sound. Perfect for rock, blues, and jazz.</p>
+        <button>Add to Cart</button>
+      </li>
+      <li>
+        <h3>Gibson Les Paul</h3>
+        <img src="lespaul.jpg" alt="Gibson Les Paul">
+        <p>The Gibson Les Paul is a heavy-hitting guitar with a thick, rich sound. Great for rock, metal, and blues.</p>
+        <button>Add to Cart</button>
+      </li>
+    </ul>
+  </section>
+
+  <section id="accessories">
+    <h2>Accessories</h2>
+    <ul>
+      <li>
+        <h3>Guitar Strings</h3>
+        <img src="strings.jpg" alt="Guitar Strings">
+        <p>A fresh set of strings can make all the difference in your sound. We carry a variety of brands and gauges.</p>
+        <button>Add to Cart</button>
+      </li>
+      <li>
+        <h3>Guitar Stands</h3>
+        <img src="stands.jpg" alt="Guitar Stands">
+        <p>Keep your guitar safe and within reach with one of our sturdy guitar stands.</p>
+        <button>Add to Cart</button>
+      </li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a family-owned business that has been selling guitars and accessories for over 20 years. We pride ourselves on our knowledgeable staff and commitment to customer satisfaction.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@guitarshop.com</p>
+    <p>Phone: 555-555-5555</p>
+    <p>Address: 123 Guitar Lane, Anytown USA</p>
+  </section>
+
+
+{% endblock %}
